@@ -43,7 +43,7 @@ const NavbarSection = () => {
             ref={navRef}
             className={`${
               isMenuOpen ? "flex" : "hidden"
-            }  flex-col md:flex md:flex-row md:items-center md:ml-auto w-full md:w-auto gap-4 md:gap-0 text-base mt-4 md:mt-0`}
+            }  flex-col md:flex md:flex-row md:items-center md:ml-auto w-full md:w-auto gap-1 md:gap-0 text-base mt-4 md:mt-0`}
           >
             <a href="#HeroSection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Home</a>
             <a href="#ContentSection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Explore</a>
