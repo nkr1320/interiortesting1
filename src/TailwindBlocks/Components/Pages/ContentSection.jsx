@@ -75,7 +75,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
     <div className="headingtext text-[35px] font-bold text-center mt-8 mb-9">
             Why choose us ?
           </div>
-<section id="ContentSection" className="relative w-[90%] lg:w-[86%] lg:mx-auto h-[calc(100vh-210px)] lg:h-screen overflow-hidden text-white flex items-center justify-center m-[20px] rounded-2xl sm:mr-0 sm:p-15 sm:rounded-none">
+<section id="ContentSection" className="relative w-[90%] lg:w-[85%] lg:mx-auto h-[calc(100vh-210px)] lg:h-screen overflow-hidden text-white flex items-center justify-center m-[20px] rounded-2xl sm:mr-0 sm:p-15 sm:rounded-none">
       {/* Background Image */}
       <img
         src={current.img}
