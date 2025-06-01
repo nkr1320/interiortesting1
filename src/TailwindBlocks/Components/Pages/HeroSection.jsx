@@ -10,7 +10,7 @@ const HeroSection = () => {
         {/* Wrapper div with relative positioning and background image */}
         <div className="relative container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" style={{ backgroundImage: `url(${living})`,  backgroundSize: 'cover',    backgroundPosition: 'center',  }} >
           {/* Image section (kept as-is) */}
-          <div className="relative z-10 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mr-2 lg:mr-15 mb-9 mt-4 md:mt-9">
+          <div className="relative z-10 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mr-2 lg:mr-2 mb-9 mt-4 md:mt-9">
             <img className="object-cover object-center rounded" alt="hero" src={living} />
           </div>
           {/* Dark overlay */}
