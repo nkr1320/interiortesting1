@@ -5,7 +5,7 @@ import living from '../Pages/LIVING1.jpg';
 const HeroSection = () => {
   return (
     <>
-      <section id="HeroSection" className="text-gray-600 body-font lg:mb-10 mt-[15px] lg:w-[97%] lg:mx-auto">
+      <section id="HeroSection" className="text-gray-600 body-font lg:mb-10 mt-[15px] lg:w-[100%] lg:mx-auto">
 
         {/* Wrapper div with relative positioning and background image */}
         <div className="relative container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" style={{ backgroundImage: `url(${living})`,  backgroundSize: 'cover',    backgroundPosition: 'center',  }} >
