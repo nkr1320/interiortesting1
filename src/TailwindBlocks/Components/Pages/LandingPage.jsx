@@ -19,13 +19,13 @@ const LandingPage = () => {
         <HeroSection />
         <ContentSection />
         <GallerySection />
-        <LightingSection />
         <HoverSection />
+        <LightingSection />
+
         <OurServices />
         <TeamSection />
         <TestimonialSection />
         <ContactSection />
-
         <FooterSection />
     </>)
 }
