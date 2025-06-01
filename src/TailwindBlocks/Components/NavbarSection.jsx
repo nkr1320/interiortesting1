@@ -19,11 +19,8 @@ const NavbarSection = () => {
 
   return (
     <>
-      <header
-        id="NavbarSection"
-        className="text-gray-600 body-font fixed w-full top-0 z-50 bg-white shadow-md"
-      >
-        <div className="container mx-auto flex flex-wrap p-5 items-center justify-between">
+      <header id="NavbarSection" className="text-gray-600 body-font fixed w-full top-0 z-50 bg-white shadow-md  " >
+        <div className="container mx-auto flex flex-wrap p-5 items-center justify-between lg:w-[97%] lg:mx-auto">
           {/* Logo + Hamburger */}
           <div className="flex items-center justify-between w-full md:w-auto">
             <a className="flex items-center text-gray-900">
