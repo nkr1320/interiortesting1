@@ -67,7 +67,7 @@ const HoverSection = () => {
 <div className="headingtext text-[35px] font-bold text-center">
             Automation Works
           </div>
-<section id="ContentSection" className="relative w-[90%] lg:w-[97%] lg:mx-auto h-[calc(100vh-210px)] lg:h-screen overflow-hidden text-white flex items-center justify-center m-[20px] rounded-2xl sm:mr-0 sm:p-15 sm:rounded-none">
+<section id="ContentSection" className="relative w-[90%] lg:w-[85%] lg:mx-auto h-[calc(100vh-210px)] lg:h-screen overflow-hidden text-white flex items-center justify-center m-[20px] rounded-2xl sm:mr-0 sm:p-15 sm:rounded-none">
 
       {/* Background Image */}
       <img
