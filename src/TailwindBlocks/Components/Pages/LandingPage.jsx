@@ -12,7 +12,24 @@ import FooterSection from "../FooterSection";
 import LightingSection from "./LightingSection";
 
 const LandingPage = () => {
+  return (
+    <>
+      <NavbarSection />
+      <HeroSection />
+      <ContentSection />
+      <GallerySection />
+      <HoverSection />
+      <LightingSection />
+      <OurServices />
+      <TeamSection />
+      <TestimonialSection />
+      <ContactSection />
+      <FooterSection />
+    </>
+  );
+};
 
+<<<<<<< HEAD
 
     return (<>
         <NavbarSection />
@@ -30,4 +47,6 @@ const LandingPage = () => {
     </>)
 }
 
+=======
+>>>>>>> ab6a0e7 (interiortestin1 final ne tesg)
 export default LandingPage;

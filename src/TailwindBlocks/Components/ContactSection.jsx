@@ -2,6 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
+    <>
     <section id="ContactSection" className="text-gray-600 body-font relative">
       <div className="container px-5 py-12 mx-auto">
         <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center">
@@ -48,6 +49,7 @@ const ContactSection = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import logo from '../Components/Pages/images/harinileelalogo.png';
+import { Link } from 'react-router-dom';
 
 const NavbarSection = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,10 +24,10 @@ const NavbarSection = () => {
         <div className="container mx-auto flex flex-wrap p-5 items-center justify-between lg:w-[97%] lg:mx-auto">
           {/* Logo + Hamburger */}
           <div className="flex items-center justify-between w-full md:w-auto">
-            <a className="flex items-center text-gray-900">
+             <Link to="/"  className="flex items-center text-gray-900">
               <img src={logo} alt="logo" className="w-10 h-10 p-1 rounded-full" />
               <span className="ml-3 text-xl">HARINILEELA</span>
-            </a>
+            </Link>
             <button
               className="md:hidden text-3xl focus:outline-none ml-auto"
               onClick={toggleMenu}
@@ -42,9 +43,9 @@ const NavbarSection = () => {
               isMenuOpen ? "flex" : "hidden"
             }  flex-col md:flex md:flex-row md:items-center md:ml-auto w-full md:w-auto gap-1 md:gap-0 text-base mt-4 md:mt-0`}
           >
-            <a href="#HeroSection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Home</a>
-            <a href="#ContentSection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Explore</a>
-            <a href="#GallerySection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Projects</a>
+            <Link to="/" href="#Home" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Home</Link>
+            <Link to="/explore" href="#ContentSection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Explore</Link>
+            <Link to="/Gallery" href="#GallerySection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Projects</Link>
             <a href="#OurServices" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Services</a>
             <a href="#ContactSection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Contact</a>
             <a href="#TeamSection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Team</a>

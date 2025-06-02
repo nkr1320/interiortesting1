@@ -1,10 +1,62 @@
 
+<<<<<<< HEAD
 import image10 from '../Pages/images/auto2.jpg'
 import image11 from '../Pages/images/auto3.webp'
 import image12 from '../Pages/images/auto8.jpg'
+=======
+import image10 from '../Pages/woodimages/smarthome.webp'
+import image11 from '../Pages/woodimages/aiintegrated.webp'
+import image12 from '../Pages/woodimages/homekit.webp';
+>>>>>>> ab6a0e7 (interiortestin1 final ne tesg)
 import image13 from '../Pages/images/auto11.png'
-import image14 from '../Pages/images/auto6.jpg'
-import image16 from '../Pages/images/image16.jpg'
+import image14 from '../Pages/woodimages/smart.png'
+import image16 from '../Pages/woodimages/kitchen1.jpg'
+
+import React, { useState } from "react";
+import NavbarSection from '../NavbarSection'
+
+
+
+
+const galleryData = [
+  {
+    img: image10,
+    subtitle: "Smart Haven ",
+    title: " Full-Home Automation System",
+    desc: "A centralized smart system controlling lighting, HVAC, security, and entertainment from one interface.",
+  },
+  {
+    img: image11,
+    subtitle: "Voice-Controlled Living",
+    title: "AI-Integrated Living Room",
+    desc: "Hands-free control of lights, music, and blinds through Alexa/Google Assistant integration.",
+  },
+  {
+    img: image12,
+    subtitle: "  ",
+    title: " Intelligent Lighting Design",
+    desc: "Automated ambient lighting scenes based on time, activity, or user mood with motion sensors and app control.",
+  },
+  {
+    img: image13,
+    subtitle: "Secure Nest",
+    title: "Advanced Smart Security System",
+    desc: "Real-time surveillance, facial recognition, smart door locks, and mobile alerts for complete home safety.",
+  },
+  {
+    img: image14,
+    subtitle: "EcoSync",
+    title: "Smart Energy Management",
+    desc: "IoT-enabled smart meters and thermostats that reduce energy consumption and optimize utility usage.",
+  },
+
+  {
+    img: image16,
+    subtitle: "Chef's Command  ",
+    title: " Smart Modular Kitchen",
+    desc: "Voice-activated appliances, sensor taps, and real-time inventory tracking for a futuristic cooking experience.",
+  },
+];
 
 import React, { useState } from "react";
 
@@ -64,10 +116,19 @@ const HoverSection = () => {
   };
 
   return (<>
+<<<<<<< HEAD
 <div className="headingtext text-[35px] font-bold text-center">
             Automation Works
           </div>
 <section id="ContentSection" className="relative w-[90%] lg:w-[86.3%] lg:mx-auto h-[calc(100vh-210px)] lg:h-screen overflow-hidden text-white flex items-center justify-center m-[20px] rounded-2xl sm:mr-0 sm:p-15 sm:rounded-none">
+=======
+      <NavbarSection />
+
+<div className="headingtext text-[35px] font-bold text-center">
+            Automation Works
+          </div>
+<section id="ContentSection" className="relative w-[90%] lg:w-[92%] lg:mx-auto h-[calc(100vh-210px)] lg:h-screen overflow-hidden text-white flex items-center justify-center m-[20px] rounded-2xl sm:mr-0 sm:p-15 sm:rounded-none">
+>>>>>>> ab6a0e7 (interiortestin1 final ne tesg)
 
       {/* Background Image */}
       <img
@@ -96,14 +157,24 @@ const HoverSection = () => {
       {/* Text Overlay */}
       <div className="relative z-20 container mx-auto px-6 py-20 flex flex-col lg:flex-row items-center justify-between h-full">
         <div className="lg:ml-auto text-center lg:text-right max-w-xl">
+<<<<<<< HEAD
           <h4 className="text-green-400 text-sm mb-2">{current.subtitle}</h4>
+=======
+          <h4 className="text-green-400 text-sm mb-2 lg:text-4xl font-bold">{current.subtitle}</h4>
+>>>>>>> ab6a0e7 (interiortestin1 final ne tesg)
           <h2 className="text-4xl lg:text-6xl font-bold leading-tight mb-4">
             {current.title}
           </h2>
           <p className="mb-6">{current.desc}</p>
+<<<<<<< HEAD
           <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded">
             READ MORE
           </button>
+=======
+          {/* <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded">
+            READ MORE
+          </button> */}
+>>>>>>> ab6a0e7 (interiortestin1 final ne tesg)
         </div>
       </div>
 
@@ -124,6 +195,10 @@ const HoverSection = () => {
     </>
   );
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> ab6a0e7 (interiortestin1 final ne tesg)
 
 
 

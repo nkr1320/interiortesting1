@@ -8,7 +8,7 @@ const TeamSection = () =>{
     <section id="TeamSection" className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-2">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
+      <h1 className="sm:text-3xl text-4xl font-medium title-font mb-4 text-gray-900 lg:text-4xl">Our Team</h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">At the heart of our designs is a passionate team of architects, interior stylists, and project managers dedicated to turning your vision into reality. With a perfect blend of creativity, technical expertise, and attention to detail, we craft spaces that are both beautiful and functional. Our collaborative approach ensures every project reflects your personality, lifestyle, and needs — delivered with professionalism and care.</p>
     </div>
     <div className="flex flex-wrap -m-2">

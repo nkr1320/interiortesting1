@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import image2 from '../Pages/images/image2.jpg'
 import image3 from '../Pages/images/image3.jpg'
 import image4 from '../Pages/images/image4.jpg'
@@ -7,6 +8,7 @@ import image6 from '../Pages/images/image6.jpg'
 import image7 from '../Pages/images/image7.jpg'
 import image8 from '../Pages/images/image8.jpg'
 import image9 from '../Pages/images/image9.jpg'
+import NavbarSection from "../NavbarSection";
 
 
 
@@ -15,7 +17,7 @@ const GallerySection = () => {
 
 
   return (<>
-
+<NavbarSection />
     <section id="GallerySection" className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-center mb-16 md:mb-0 items-center text-center">
@@ -24,10 +26,11 @@ const GallerySection = () => {
           </h1>
         </div>
         <div className="flex flex-wrap -m-4">
+          
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-48 rounded overflow-hidden">
+            <Link to="/WoodCarvingDecorativeWork" className="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" className="object-cover object-center w-full h-full block rounded-2xl" src={image2} />
-            </a>
+            </Link>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
               <h2 className="text-gray-900 title-font text-lg font-medium">Wood Carving & Decorative Work</h2>
@@ -35,9 +38,9 @@ const GallerySection = () => {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-48 rounded overflow-hidden">
+             <Link to="/DoorsWindows" className="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" className="object-cover object-center w-full h-full block rounded-2xl" src={image3} />
-            </a>
+            </Link>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
               <h2 className="text-gray-900 title-font text-lg font-medium">Doors & Windows
@@ -46,9 +49,9 @@ const GallerySection = () => {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-48 rounded overflow-hidden">
+            <Link to="/FurnitureMaking" className="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" className="object-cover object-center w-full h-full block rounded-2xl" src={image4} />
-            </a>
+            </Link>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
               <h2 className="text-gray-900 title-font text-lg font-medium">Furniture Making
@@ -57,9 +60,9 @@ const GallerySection = () => {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-48 rounded overflow-hidden">
+            <Link to="/PanellingCladding" className="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" className="object-cover object-center w-full h-full block rounded-2xl" src={image5} />
-            </a>
+            </Link>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
               <h2 className="text-gray-900 title-font text-lg font-medium">Paneling & Cladding</h2>
@@ -67,9 +70,9 @@ const GallerySection = () => {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-48 rounded overflow-hidden">
+            <Link to="/StructuralWoodwork" className="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" className="object-cover object-center w-full h-full block rounded-2xl" src={image6} />
-            </a>
+            </Link>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
               <h2 className="text-gray-900 title-font text-lg font-medium">Structural Woodwork</h2>
@@ -77,9 +80,9 @@ const GallerySection = () => {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-48 rounded overflow-hidden">
+            <Link to="/ShootingStars" className="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" className="object-cover object-center w-full h-full block rounded-2xl" src={image7} />
-            </a>
+            </Link>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
               <h2 className="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
@@ -87,9 +90,9 @@ const GallerySection = () => {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-48 rounded overflow-hidden">
+            <Link to="/WoodenCeilingDesign" className="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" className="object-cover object-center w-full h-full block rounded-2xl" src={image8} />
-            </a>
+            </Link>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
               <h2 className="text-gray-900 title-font text-lg font-medium">Wooden Ceiling Design</h2>
@@ -97,9 +100,9 @@ const GallerySection = () => {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a className="block relative h-48 rounded overflow-hidden">
+            <Link to="/WoodFlooring" className="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" className="object-cover object-center w-full h-full block rounded-2xl" src={image9} />
-            </a>
+            </Link>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
               <h2 className="text-gray-900 title-font text-lg font-medium">Wood Flooring</h2>
