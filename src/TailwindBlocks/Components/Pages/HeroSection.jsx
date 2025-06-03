@@ -6,26 +6,16 @@ import NavbarSection from "../NavbarSection";
 const HeroSection = () => {
   return (
     <>
-<<<<<<< HEAD
-      <section id="HeroSection" className="text-gray-600 body-font">
-=======
         <NavbarSection />
 
       <section id="Home" className="text-gray-600 body-font">
->>>>>>> ab6a0e7 (interiortestin1 final ne tesg)
 
         {/* Wrapper div with relative positioning and background image */}
         <div className="relative container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" style={{ backgroundImage: `url(${living})`,  backgroundSize: 'cover',    backgroundPosition: 'center',  }} >
           {/* Image section (kept as-is) */}
-<<<<<<< HEAD
-<div className="relative z-10 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mr-2 lg:mr-15 mt-4 md:mt-9">
-  <img className="object-cover object-center rounded" alt="hero" src={living} />
-</div>
-=======
           <div className="relative z-10 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mr-2 lg:mr-15 mb-9 mt-4 md:mt-9">
             <img className="object-cover object-center rounded" alt="hero" src={living} />
           </div>
->>>>>>> ab6a0e7 (interiortestin1 final ne tesg)
           {/* Dark overlay */}
           <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
 

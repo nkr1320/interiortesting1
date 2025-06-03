@@ -1,10 +1,12 @@
 import React from "react";
+import NavbarSection from "./NavbarSection";
 
 const ContactSection = () => {
   return (
     <>
+    <NavbarSection />
     <section id="ContactSection" className="text-gray-600 body-font relative">
-      <div className="container px-5 py-12 mx-auto">
+      <div className="container px-5 py-12 mx-auto mt-15 p-15" >
         <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center">
           <div className="w-full md:w-2/3 bg-gray-300 rounded-lg overflow-hidden p-6 relative h-72 md:h-auto">
             <iframe

@@ -1,10 +1,11 @@
 import React from "react";
 import harinileelalogo from '../Components/Pages/images/harinileelalogo.png';
+import NavbarSection from "./NavbarSection";
 const TestimonialSection = () =>{
 
 
     return(<>
-    
+    <NavbarSection />
     <section id="TestimonialSection" className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">

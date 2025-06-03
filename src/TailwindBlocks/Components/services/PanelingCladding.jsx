@@ -1,4 +1,5 @@
 
+
 import React from "react";
 
 
@@ -18,7 +19,7 @@ import FooterSection from "../FooterSection";
 
 
 
-const ShootingStars = () =>{
+const PanelingCladding = () =>{
 
 
 
@@ -78,4 +79,4 @@ const ShootingStars = () =>{
     </>)
 }
 
-export default ShootingStars;
+export default PanelingCladding;

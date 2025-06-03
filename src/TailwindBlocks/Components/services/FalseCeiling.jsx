@@ -1,24 +1,25 @@
 
+
 import React from "react";
 
 
-import image1 from '../Pages/woodimages/doorswindows.jpg';
-import image10 from '../Pages/woodimages/shooting.jpeg';
-import image11 from '../Pages/woodimages/woodfloor1.jpg';
-import image12 from '../Pages/woodimages/woodfloor16.jpg';
-import image13 from '../Pages/woodimages/cladding2.webp';
-import image14 from '../Pages/woodimages/cladding5.jpg';
-import image17 from '../Pages/woodimages/ceiling6.jpg';
-import image18 from '../Pages/images/light3.png';
-import image19 from '../Pages/images/image6.jpg';
-import image20 from '../Pages/images/image7.jpg';
-import image21 from '../Pages/woodimages/shooting.jpeg';
+import image1 from '../Pages/woodimages/false1.jpg';
+import image10 from '../Pages/woodimages/false2.jpg';
+import image11 from '../Pages/woodimages/false3.jpg';
+import image12 from '../Pages/woodimages/false4.jpg';
+import image13 from '../Pages/woodimages/false5.jpg';
+import image14 from '../Pages/woodimages/false6.jpg';
+import image17 from '../Pages/woodimages/false7.jpg';
+import image18 from '../Pages/woodimages/false8.png';
+import image19 from '../Pages/woodimages/false9.jpg';
+import image20 from '../Pages/woodimages/false10.jpg';
+import image21 from '../Pages/woodimages/false11.jpg';
 import NavbarSection from "../NavbarSection";
 import FooterSection from "../FooterSection";
 
 
 
-const ShootingStars = () =>{
+const FalseCeiling = () =>{
 
 
 
@@ -78,4 +79,4 @@ const ShootingStars = () =>{
     </>)
 }
 
-export default ShootingStars;
+export default FalseCeiling;

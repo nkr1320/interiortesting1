@@ -29,24 +29,4 @@ const LandingPage = () => {
   );
 };
 
-<<<<<<< HEAD
-
-    return (<>
-        <NavbarSection />
-        <HeroSection />
-        <ContentSection />
-        <GallerySection />
-        <HoverSection />
-        <LightingSection />
-
-        <OurServices />
-        <TeamSection />
-        <TestimonialSection />
-        <ContactSection />
-        <FooterSection />
-    </>)
-}
-
-=======
->>>>>>> ab6a0e7 (interiortestin1 final ne tesg)
 export default LandingPage;

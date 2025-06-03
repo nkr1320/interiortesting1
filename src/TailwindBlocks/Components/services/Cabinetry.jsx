@@ -18,7 +18,7 @@ import FooterSection from "../FooterSection";
 
 
 
-const ShootingStars = () =>{
+const Cabinetry = () =>{
 
 
 
@@ -78,4 +78,4 @@ const ShootingStars = () =>{
     </>)
 }
 
-export default ShootingStars;
+export default Cabinetry;
