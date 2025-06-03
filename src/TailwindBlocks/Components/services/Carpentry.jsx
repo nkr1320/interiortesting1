@@ -3,17 +3,17 @@
 import React from "react";
 
 
-import image1 from '../Pages/woodimages/doorswindows.jpg';
-import image10 from '../Pages/woodimages/shooting.jpeg';
-import image11 from '../Pages/woodimages/woodfloor1.jpg';
-import image12 from '../Pages/woodimages/woodfloor16.jpg';
-import image13 from '../Pages/woodimages/cladding2.webp';
-import image14 from '../Pages/woodimages/cladding5.jpg';
-import image17 from '../Pages/woodimages/ceiling6.jpg';
-import image18 from '../Pages/images/light3.png';
-import image19 from '../Pages/images/image6.jpg';
-import image20 from '../Pages/images/image7.jpg';
-import image21 from '../Pages/woodimages/shooting.jpeg';
+import image1 from '../Pages/woodimages/carpentry.jpg';
+import image10 from '../Pages/woodimages/carpentry16.jpg';
+import image11 from '../Pages/woodimages/carpentry7.avif';
+import image12 from '../Pages/woodimages/carpentry8.webp';
+import image13 from '../Pages/woodimages/carpentry9.avif';
+import image14 from '../Pages/woodimages/carpentry10.png';
+import image17 from '../Pages/woodimages/carpentry14.webp';
+import image18 from '../Pages/woodimages/carpentry15.avif';
+import image19 from '../Pages/woodimages/carpentry18.jpeg';
+import image20 from '../Pages/woodimages/carpentry20.jpg';
+import image21 from '../Pages/woodimages/carpentry21.avif';
 import NavbarSection from "../NavbarSection";
 import FooterSection from "../FooterSection";
 
