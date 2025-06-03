@@ -3,17 +3,17 @@
 import React from "react";
 
 
-import image1 from '../Pages/woodimages/doorswindows.jpg';
-import image10 from '../Pages/woodimages/shooting.jpeg';
-import image11 from '../Pages/woodimages/woodfloor1.jpg';
-import image12 from '../Pages/woodimages/woodfloor16.jpg';
-import image13 from '../Pages/woodimages/cladding2.webp';
-import image14 from '../Pages/woodimages/cladding5.jpg';
-import image17 from '../Pages/woodimages/ceiling6.jpg';
-import image18 from '../Pages/images/light3.png';
-import image19 from '../Pages/images/image6.jpg';
-import image20 from '../Pages/images/image7.jpg';
-import image21 from '../Pages/woodimages/shooting.jpeg';
+import image1 from '../Pages/woodimages/modularkitchen.jpg';
+import image10 from '../Pages/woodimages/modularkitchen1.jpg';
+import image11 from '../Pages/woodimages/modularkitchen2.jpg';
+import image12 from '../Pages/woodimages/modularkitchen3.avif';
+import image13 from '../Pages/woodimages/modularkitchen4.avif';
+import image14 from '../Pages/woodimages/modularkitchen5.avif';
+import image17 from '../Pages/woodimages/modularkitchen6.avif';
+import image18 from '../Pages/woodimages/modularkitchen7.webp';
+import image19 from '../Pages/woodimages/modularkitchen8.avif';
+import image20 from '../Pages/woodimages/modularkitchen9.jpg';
+import image21 from '../Pages/woodimages/modularkitchen10.jpg';
 import NavbarSection from "../NavbarSection";
 import FooterSection from "../FooterSection";
 
