@@ -2,18 +2,17 @@
 
 import React from "react";
 
-
-import image1 from '../Pages/woodimages/doorswindows.jpg';
-import image10 from '../Pages/woodimages/shooting.jpeg';
-import image11 from '../Pages/woodimages/woodfloor1.jpg';
-import image12 from '../Pages/woodimages/woodfloor16.jpg';
-import image13 from '../Pages/woodimages/cladding2.webp';
-import image14 from '../Pages/woodimages/cladding5.jpg';
-import image17 from '../Pages/woodimages/ceiling6.jpg';
-import image18 from '../Pages/images/light3.png';
-import image19 from '../Pages/images/image6.jpg';
-import image20 from '../Pages/images/image7.jpg';
-import image21 from '../Pages/woodimages/shooting.jpeg';
+import image1 from '../Pages/woodimages/waterproofing01.webp';
+import image10 from '../Pages/woodimages/waterproofing.webp';
+import image11 from '../Pages/woodimages/waterproofing1.jpg';
+import image12 from '../Pages/woodimages/waterproofing2.jpg';
+import image13 from '../Pages/woodimages/waterproofing3.jpeg';
+import image14 from '../Pages/woodimages/waterproofing5.jpg';
+import image17 from '../Pages/woodimages/waterproofing6.jpg';
+import image18 from '../Pages/woodimages/waterproofing7.webp';
+import image19 from '../Pages/woodimages/waterproofing8.webp';
+import image20 from '../Pages/woodimages/waterproofing9.jpg';
+import image21 from '../Pages/woodimages/waterproofing10.webp';
 import NavbarSection from "../NavbarSection";
 import FooterSection from "../FooterSection";
 
