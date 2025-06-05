@@ -11,3 +11,18 @@ body.dark {
   background-color: #1e1e1e;
   color: #ffffff;
 }
+/* App.css */
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark span,
+body.dark div {
+  color: white;
+}
+
+/* Exclude h4 explicitly */
+body.dark h4 {
+  color: initial;
+}
