@@ -1,7 +1,9 @@
 @import "tailwindcss";
-*{
+
+* {
   box-sizing: border-box;
 }
+
 body.light {
   background-color: #ffffff;
   color: #000000;
@@ -11,17 +13,23 @@ body.dark {
   background-color: #1e1e1e;
   color: #ffffff;
 }
-/* App.css */
 
+/* Apply dark mode only to body children, EXCLUDING the Navbar */
 body.dark h1,
 body.dark h2,
 body.dark h3,
 body.dark p,
-body.dark div {
+body.dark span,
+body.dark div:not(#NavbarSection):not(#NavbarSection *) {
   color: white;
 }
 
-/* Exclude h4 explicitly */
-body.dark h4 {
-  color: initial;
+/* Prevent Navbar from inheriting dark text color */
+#NavbarSection {
+  background-color: white !important;
+  color: black !important;
+}
+#logoname {
+    background-color: white !important;
+  color: black !important;
 }
