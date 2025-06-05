@@ -2,10 +2,14 @@ import React, { useState, useEffect } from 'react';
 import "../App.css";
 
 function DarkTheme() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    // Load saved theme from localStorage (true/false as string)
+    return localStorage.getItem("darkMode") === "true";
+  });
 
   useEffect(() => {
     document.body.className = darkMode ? 'dark' : 'light';
+    localStorage.setItem("darkMode", darkMode); // Save theme to localStorage
   }, [darkMode]);
 
   const toggleTheme = () => {
