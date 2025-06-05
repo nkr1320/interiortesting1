@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import logo from '../Components/Pages/images/harinileelalogo.png';
 import { Link } from 'react-router-dom';
+import DarkTheme from "../DarkTheme";
 
 const NavbarSection = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,6 +50,8 @@ const NavbarSection = () => {
             <Link to="/services" href="#OurServices" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Services</Link>
             <Link to="/contact" href="#ContactSection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Contact</Link>
             <Link to="/team" href="#TeamSection" className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0">Team</Link>
+            
+            <div className="text-[23px] hover:text-orange-600 font-semibold md:mr-9 mb-2 md:mb-0"><DarkTheme /></div>
           </nav>
         </div>
       </header>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useState ,useEffect} from "react";
 import NavbarSection from "../NavbarSection";
 import HeroSection from "./HeroSection";
 import ContentSection from "./ContentSection";
@@ -11,7 +12,9 @@ import ContactSection from "../ContactSection";
 import FooterSection from "../FooterSection";
 import LightingSection from "./LightingSection";
 
+
 const LandingPage = () => {
+
   return (
     <>
       <NavbarSection />
