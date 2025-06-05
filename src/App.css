@@ -33,3 +33,6 @@ body.dark div:not(#NavbarSection):not(#NavbarSection *) {
     background-color: white !important;
   color: black !important;
 }
+
+/* ------------------------------------------------ */
+
