@@ -8,11 +8,11 @@ import image12 from '../Pages/woodimages/doorswindows5.jpg'
 import image13 from '../Pages/woodimages/doorswindows6.jpg'
 import image14 from '../Pages/woodimages/doorswindows7.webp'
 
-import image17 from '../Pages/woodimages/doorswindows2.jpg';
-import image18 from '../Pages/woodimages/doorswindows4.jpg';
-import image19 from '../Pages/woodimages/doorswindows5.jpg';
-import image20 from '../Pages/woodimages/doorswindows6.jpg';
-import image21 from '../Pages/woodimages/doorswindows7.webp';
+import image17 from '../Pages/woodimages/furniture.jpg';
+import image18 from '../Pages/woodimages/furniture2.jpg';
+import image19 from '../Pages/woodimages/furniture4.jpeg';
+import image20 from '../Pages/woodimages/furniture12.jpg';
+import image21 from '../Pages/woodimages/furniture13.jpg';
 import NavbarSection from "../NavbarSection";
 import FooterSection from "../FooterSection";
 
