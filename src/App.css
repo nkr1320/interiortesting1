@@ -26,3 +26,6 @@ body.dark div {
 body.dark h4 {
   color: initial;
 }
+body.dark div:not(.skip-dark-text) {
+  color: white;
+}
