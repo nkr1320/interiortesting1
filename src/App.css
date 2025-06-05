@@ -17,7 +17,6 @@ body.dark h1,
 body.dark h2,
 body.dark h3,
 body.dark p,
-body.dark span,
 body.dark div {
   color: white;
 }
@@ -25,7 +24,4 @@ body.dark div {
 /* Exclude h4 explicitly */
 body.dark h4 {
   color: initial;
-}
-body.dark div:not(.skip-dark-text) {
-  color: white;
 }
