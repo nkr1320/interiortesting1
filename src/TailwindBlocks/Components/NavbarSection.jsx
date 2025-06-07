@@ -46,7 +46,7 @@ const NavbarSection = () => {
           <div className="flex items-center justify-between w-full md:w-auto">
             <Link to="/" className="flex items-center text-gray-900">
               <img src={logo} alt="logo" className="w-10 h-10 p-1 rounded-full" />
-              <span id="logoname" className="ml-3 text-xl"> NKR INTERIOR DESIGNING</span>
+              <span id="logoname" className="ml-3 text-xl"> NKR INTERIORS </span>
             </Link>
             <button
               className="md:hidden text-3xl focus:outline-none ml-auto"
