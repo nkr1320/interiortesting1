@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react"; 
 import { motion, AnimatePresence } from "framer-motion";
 import "./ResponsiveMenu.css";
 import {
@@ -9,8 +9,6 @@ import {
 } from "react-icons/fa"; // ✅ Fixed: use Font Awesome icons
 import {
   MessageCircle,
-  ArrowLeftCircle,
-  ArrowRightCircle,
   Sun,
   Moon
 } from "lucide-react";
@@ -87,12 +85,11 @@ const ResponsiveMenu = () => {
       className={`menu-container ${theme}`}
     >
       <div className="menu-wrapper-glow flex items-center gap-2">
-        <MessageCircle size={18} />
         <button onClick={toggleMenu}>
-          {isOpen ? <ArrowLeftCircle size={18} /> : <ArrowRightCircle size={32} />}
+          <MessageCircle size={15} />
         </button>
         <button onClick={toggleDarkMode} className="mode-toggle">
-          {darkMode ? <Sun size={18} /> : <Moon size={18} />}
+          {darkMode ? <Sun size={15} /> : <Moon size={18} />}
         </button>
       </div>
 
@@ -117,7 +114,7 @@ const ResponsiveMenu = () => {
                   <a href={item.link} target="_blank" rel="noopener noreferrer">
                     <div className="flip-inner">
                       <div className="flip-front">{item.icon}</div>
-                      <div className="flip-back">Open</div>
+                      <div className="flip-back">{item.icon}</div>
                     </div>
                   </a>
                 </li>

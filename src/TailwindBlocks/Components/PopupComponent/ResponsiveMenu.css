@@ -148,7 +148,7 @@ body.dark {
 
   .menu-nav-text {
     padding: 10px;
-    width: 80px;
+    width: 57px;
     border-radius: 10px;
   }
 
@@ -168,7 +168,7 @@ body.dark {
   }
   .flip-front svg,
 .flip-back svg {
-  font-size: 20px;
+  font-size: 23px;
   vertical-align: middle;
 }
 
@@ -177,6 +177,54 @@ body.dark {
     margin-left: 0px;
   }
 }
+
+/* Icon rotation animation */
+.icon-rotate {
+  transition: transform 0.3s ease;
+}
+.icon-rotate.open {
+  transform: rotate(90deg);
+}
+
+/* Notification dot */
+.notify-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+/* Hover glow */
+.message-button {
+  position: relative;
+  padding: 5px;
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease;
+}
+.message-button:hover {
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+/* Pulse animation for dot */
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}
+
 
 /* Theme Variables */
 .menu-container.cyan { --glow: #00ffff; }
