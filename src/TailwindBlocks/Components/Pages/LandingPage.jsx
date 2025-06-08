@@ -11,6 +11,7 @@ import TestimonialSection from "../TestimonialSection";
 import ContactSection from "../ContactSection";
 import FooterSection from "../FooterSection";
 import LightingSection from "./LightingSection";
+import ResponsiveMenu from "../PopupComponent/ResponsiveMenu";
 
 
 const LandingPage = () => {
@@ -28,6 +29,7 @@ const LandingPage = () => {
       <TestimonialSection />
       <ContactSection />
       <FooterSection />
+      <ResponsiveMenu />
     </>
   );
 };
