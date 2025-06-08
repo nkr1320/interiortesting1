@@ -1,9 +1,28 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRightCircle, ArrowLeftCircle, MessageCircle, Sun, Moon } from "lucide-react";
 import "./ResponsiveMenu.css";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaWhatsapp,
+  FaEnvelope
+} from "react-icons/fa"; // ✅ Fixed: use Font Awesome icons
+import {
+  MessageCircle,
+  ArrowLeftCircle,
+  ArrowRightCircle,
+  Sun,
+  Moon
+} from "lucide-react";
 
 const ResponsiveMenu = () => {
+  const socialItems = [
+    { icon: <FaWhatsapp />, link: "https://wa.me/910000000000" },
+    { icon: <FaFacebook />, link: "https://www.facebook.com" },
+    { icon: <FaInstagram />, link: "https://www.instagram.com" },
+    { icon: <FaEnvelope />, link: "mailto:someone@example.com" }
+  ];
+
   const [isOpen, setIsOpen] = useState(false);
   const [openUpward, setOpenUpward] = useState(false);
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("darkMode") === "true");
@@ -35,7 +54,6 @@ const ResponsiveMenu = () => {
     setOpenUpward(spaceBelow < 250);
   };
 
-  // Voice command setup
   useEffect(() => {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) return;
@@ -61,7 +79,7 @@ const ResponsiveMenu = () => {
   return (
     <motion.div
       drag
-      dragConstraints={false} // ✅ Changed: Allows free movement in all directions
+      dragConstraints={false}
       dragElastic={0.2}
       dragMomentum={false}
       onDragEnd={handleDragEnd}
@@ -69,10 +87,12 @@ const ResponsiveMenu = () => {
       className={`menu-container ${theme}`}
     >
       <div className="menu-wrapper-glow flex items-center gap-2">
-        <MessageCircle size={24} />
-        <button onClick={toggleMenu}>{isOpen ? <ArrowLeftCircle size={32} /> : <ArrowRightCircle size={32} />}</button>
+        <MessageCircle size={18} />
+        <button onClick={toggleMenu}>
+          {isOpen ? <ArrowLeftCircle size={18} /> : <ArrowRightCircle size={32} />}
+        </button>
         <button onClick={toggleDarkMode} className="mode-toggle">
-          {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+          {darkMode ? <Sun size={18} /> : <Moon size={18} />}
         </button>
       </div>
 
@@ -91,24 +111,18 @@ const ResponsiveMenu = () => {
               marginBottom: openUpward ? "10px" : undefined,
             }}
           >
-           <ul className="menu-list">
-  {[
-    { name: "whatsup", link: "https://wa.me/91 0000000000" },
-    { name: "facebook", link: "https://www.facebook.com" },
-    { name: "instagram", link: "https://www.instagram.com" },
-    { name: "gmail", link: "mailto:someone@example.com" }
-  ].map((item, i) => (
-    <li key={i} className="flip-card">
-      <a href={item.link} target="_blank" rel="noopener noreferrer">
-        <div className="flip-inner">
-          <div className="flip-front capitalize">{item.name}</div>
-          <div className="flip-back">Go to {item.name}</div>
-        </div>
-      </a>
-    </li>
-  ))}
-</ul>
-
+            <ul className="menu-list">
+              {socialItems.map((item, i) => (
+                <li key={i} className="flip-card">
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <div className="flip-inner">
+                      <div className="flip-front">{item.icon}</div>
+                      <div className="flip-back">Open</div>
+                    </div>
+                  </a>
+                </li>
+              ))}
+            </ul>
           </motion.nav>
         )}
       </AnimatePresence>
